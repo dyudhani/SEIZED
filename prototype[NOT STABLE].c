@@ -282,8 +282,8 @@ int main(int argc, char *argv[])
 	SDL_Init(SDL_INIT_VIDEO);              // Initialize SDL2
 	
 	Entity man;
-	man.x = 200;
-	man.y = 260;
+	man.x = 60;
+	man.y = 0;
 	man.imageNow = 8;  
 	man.alive = 1;
 	man.visible = 1;
