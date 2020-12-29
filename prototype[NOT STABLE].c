@@ -152,9 +152,9 @@ int Event(SDL_Window *window, Entity *man)//processing the events during the gam
 		if(globalTime % 9 == 0)
 		{
 			if(man->imageNow == 8)         
-			man->imageNow = 9;
+			man->imageNow = 0;
 			else
-			man->imageNow = 8;
+			man->imageNow = 0;
 			
 			if(!man->facingLeft)
 			{
